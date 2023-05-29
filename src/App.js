@@ -1,9 +1,17 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import MainContainer from "./components/MainContainer";
+import PaperTexture from "./components/textures/PaperTexture";
 
 function App() {
   return (
-    <PortfolioContainer />
+    <div className="app w-screen">
+      <div
+        className="background"
+        style={{ filter: "url(#papertexture)" }}
+      ></div>
+      <PaperTexture />
+      <MainContainer />
+    </div>
   );
 }
 
