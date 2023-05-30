@@ -27,15 +27,16 @@ export default function About() {
             I am a considerate and creative collaborator based out of Oakland,
             CA.
           </p>
-          <p>I love stories.</p>
           <p>
-            I love consuming them, making them, recycling them, picking them
-            apart and putting them back together. Stories are the means by which
-            we structure the world around us. They are how we connect the dots
-            between Point A and Point B. Every solution to every problem is a
-            story, whether it be a conversation, an algorithm, a game or a song.
-            It has been my pleasure to participate in many storytelling projects
-            over the years. This page collects a few of my favorites.
+            I love stories. Consuming them, making them, recycling and
+            rebuilding them. They are the tools by which we structure the world
+            around us. They are the problems we wrestle with and their
+            solutions.
+          </p>
+          <p>
+            Whether working with code, music, or dialogue, I've been privileged
+            to contribute to a number of projects. This page collects a few of
+            my favorites.
           </p>
         </div>
       </div>

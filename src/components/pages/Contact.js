@@ -54,7 +54,7 @@ export default function Contact(props) {
             name="name"
             onChange={handleInputChange}
             type="text"
-            className="input w-full"
+            className="form-input w-full"
             value={name}
           />
         </div>
@@ -65,7 +65,7 @@ export default function Contact(props) {
             name="email"
             onChange={handleInputChange}
             type="text"
-            className="input w-full"
+            className="form-input w-full"
             value={email}
           />
         </div>
@@ -76,7 +76,7 @@ export default function Contact(props) {
             name="message"
             onChange={handleInputChange}
             type="text"
-            className="textarea textarea-lg w-full"
+            className="form-textarea w-full"
           >
             {message}
           </textarea>
