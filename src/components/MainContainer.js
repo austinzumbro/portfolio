@@ -8,11 +8,8 @@ import Contact from "./pages/Contact";
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("About");
-  const [email, setEmail] = useState("");
 
   const handlePageChange = (page) => setCurrentPage(page);
-  // Handler for input changes to the search form
-  const handleInputChange = (e) => setEmail(e.target.value);
 
   const renderPage = () => {
     console.log(currentPage);
@@ -24,13 +21,7 @@ export default function MainContainer() {
       case "Resume":
         return <Resume />;
       default:
-        return (
-          <Contact
-            email={email}
-            setEmail={setEmail}
-            handleInputChange={handleInputChange}
-          />
-        );
+        return <Contact />;
     }
   };
 

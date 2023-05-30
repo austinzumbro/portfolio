@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../Project";
+import PageHead from "../PageHead";
 
 export default function Portfolio() {
   const projectList = [
@@ -31,6 +32,8 @@ export default function Portfolio() {
 
   return (
     <div>
+      <PageHead heading={"Portfolio"} />
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projectList.map((project, index) => (
           <Project

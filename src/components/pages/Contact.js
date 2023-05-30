@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import PageHead from "../PageHead";
 
 export default function Contact(props) {
   const [email, setEmail] = useState("");
@@ -42,9 +43,7 @@ export default function Contact(props) {
 
   return (
     <div className="flex flex-col justify-center align-center h-100">
-      <h2 className="text-2xl font-serif font-bold text-zinc-800">
-        Contact Me
-      </h2>
+      <PageHead heading={"Contact Me"} />
       <p className="font-serif text-zinc-700">I'd love to hear from you.</p>
       <form className="flex flex-col">
         <div className="my-5">

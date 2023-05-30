@@ -1,24 +1,22 @@
 import React from "react";
+import PDFContainer from "../PDFContainer";
+import resumePDF from "../../assets/pdfs/austin-zumbro.pdf";
 
 export default function Resume() {
   return (
-    <div className="prose">
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="flex flex-col">
+      <div className="flex flex-row justify-between">
+        <h2 className="font-bold text-2xl">Resume</h2>
+        <a href={resumePDF} download className="bg-lime-600 px-5 py-3">
+          Download
+        </a>
+      </div>
+      <embed
+        src={resumePDF}
+        type="application/pdf"
+        width="100%"
+        height="600px"
+      />
     </div>
   );
 }
