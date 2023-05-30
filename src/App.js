@@ -4,7 +4,7 @@ import PaperTexture from "./components/textures/PaperTexture";
 
 function App() {
   return (
-    <div className="app w-screen">
+    <div className="app">
       <div
         className="background"
         style={{ filter: "url(#papertexture)" }}

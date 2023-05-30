@@ -8,26 +8,36 @@ import Contact from "./pages/Contact";
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("About");
+  const [email, setEmail] = useState("");
+
+  const handlePageChange = (page) => setCurrentPage(page);
+  // Handler for input changes to the search form
+  const handleInputChange = (e) => setEmail(e.target.value);
 
   const renderPage = () => {
+    console.log(currentPage);
     switch (currentPage) {
       case "About":
         return <About />;
       case "Portfolio":
         return <Portfolio />;
-      case "Blog":
+      case "Resume":
         return <Resume />;
       default:
-        return <Contact />;
+        return (
+          <Contact
+            email={email}
+            setEmail={setEmail}
+            handleInputChange={handleInputChange}
+          />
+        );
     }
   };
-
-  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className="flex items-center justify-center">{renderPage()}</div>
       <Footer />
     </div>
   );

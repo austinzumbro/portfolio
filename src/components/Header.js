@@ -1,18 +1,20 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-function Header() {
+function Header(props) {
   return (
-    <div className="flex flex-row w-full justify-between items-center py-7">
-      <div className="px-5">
-        <a
-          className="text-4xl font-serif font-extrabold text-zinc-700 ms-5 px-3"
-          href="/"
-        >
+    <div className="flex justify-center content-center items-center">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center mt-7 mb-20">
+        <h1 className="text-4xl font-serif font-extrabold text-zinc-700 m-5 px-10">
           Austin Zumbro
-        </a>
+        </h1>
+        <div className="mt-5">
+          <Navbar
+            currentPage={props.currentPage}
+            handlePageChange={props.handlePageChange}
+          />
+        </div>
       </div>
-      <Navbar />
     </div>
   );
 }
