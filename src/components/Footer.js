@@ -15,14 +15,14 @@ function Footer() {
           <GithubLogo />
         </a>
         <a
-          href="https://github.com/austinzumbro"
+          href="https://www.linkedin.com/in/austin-zumbro/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedIn} className="w-7" alt="LinkedIn logo" />
         </a>
         <a
-          href="https://github.com/austinzumbro"
+          href="https://medium.com/@azumbro"
           target="_blank"
           rel="noreferrer"
           className="self-center"
