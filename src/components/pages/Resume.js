@@ -1,9 +1,5 @@
 import React from "react";
 import resumePDF from "../../assets/pdfs/austin-zumbro.pdf";
-import PDFViewer from "../PDFViewer";
-
-const pdfBlob = new Blob([resumePDF], { type: "application/pdf" });
-const pdfUrl = URL.createObjectURL(pdfBlob);
 
 export default function Resume() {
   return (
@@ -18,8 +14,6 @@ export default function Resume() {
           Download
         </a>
       </div>
-
-      {/* <PDFViewer /> */}
 
       <embed
         src={resumePDF}
