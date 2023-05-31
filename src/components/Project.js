@@ -15,22 +15,22 @@ export default function Project(props) {
   return (
     <div className="flex flex-col lg:flex-row bg-zinc-100 mb-5 mx-5 rounded-lg shadow">
       <figure
-        className="rounded-tl-lg rounded-tr-lg lg:rounded-tr-none h-60 bg-top"
+        className="rounded-tl-lg rounded-tr-lg lg:rounded-tr-none h-60 lg:h-full bg-top"
         style={figureStyle}
       >
         {/* <img src={image} alt={props.alt} /> */}
       </figure>
 
       <div className="flex flex-col justify-between">
-        <h2 className="flex-1 text-2xl bg-zinc-800 text-zinc-100 text-center font-bold py-5">
+        <h2 className="text-2xl bg-zinc-800 text-zinc-100 text-center font-bold py-5 lg:rounded-tr-lg">
           {props.title}
         </h2>
 
-        <p className="prose prose-zinc prose-sm font-serif p-5">
+        <p className="grow prose prose-zinc prose-sm font-serif p-5">
           {props.description}
         </p>
 
-        <div className="flex-1 py-5 px-1 me-5 justify-self-end flex flex-row justify-end items-center">
+        <div className="py-5 px-1 me-5 justify-self-end self-end flex flex-row justify-end items-center">
           <a
             href={props.github}
             target="_blank"
