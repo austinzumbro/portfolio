@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d72c99b.css",
-    "main.js": "/portfolio/static/js/main.a1a43d4e.js",
+    "main.css": "/portfolio/static/css/main.a23fdb5c.css",
+    "main.js": "/portfolio/static/js/main.2fd88581.js",
     "static/media/horiseon-square.png": "/portfolio/static/media/horiseon-square.bb1884d02f0d2ef5df58.png",
     "static/media/melore.png": "/portfolio/static/media/melore.4b8c8e3171ac658a3887.png",
     "static/media/multi-city-weather-forecast.png": "/portfolio/static/media/multi-city-weather-forecast.eb9a5d3a99da5808af9a.png",
@@ -14,11 +14,11 @@
     "static/media/github-mark.svg": "/portfolio/static/media/github-mark.1a2f8fd0b31ad06e1c004b243402b52f.svg",
     "index.html": "/portfolio/index.html",
     "static/media/medium-symbol.svg": "/portfolio/static/media/medium-symbol.042069497180352d6488abc15b4203de.svg",
-    "main.8d72c99b.css.map": "/portfolio/static/css/main.8d72c99b.css.map",
-    "main.a1a43d4e.js.map": "/portfolio/static/js/main.a1a43d4e.js.map"
+    "main.a23fdb5c.css.map": "/portfolio/static/css/main.a23fdb5c.css.map",
+    "main.2fd88581.js.map": "/portfolio/static/js/main.2fd88581.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d72c99b.css",
-    "static/js/main.a1a43d4e.js"
+    "static/css/main.a23fdb5c.css",
+    "static/js/main.2fd88581.js"
   ]
 }
