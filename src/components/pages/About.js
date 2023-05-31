@@ -19,7 +19,7 @@ export default function About() {
           className="flex relative self-center rounded mb-6"
           style={figureStyle}
         >
-          <figcaption class="absolute bottom-0 right-0 bg-blue-900 px-3 rounded-tl-lg text-sm text-blue-100 italic">
+          <figcaption className="absolute bottom-0 right-0 bg-blue-900 px-3 rounded-tl-lg text-sm text-blue-100 italic">
             Photo credit:&nbsp;
             <a
               href="https://www.melnigro.com/"

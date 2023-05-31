@@ -1,10 +1,14 @@
 import React from "react";
 import resumePDF from "../../assets/pdfs/austin-zumbro.pdf";
+import PDFViewer from "../PDFViewer";
+
+const pdfBlob = new Blob([resumePDF], { type: "application/pdf" });
+const pdfUrl = URL.createObjectURL(pdfBlob);
 
 export default function Resume() {
   return (
-    <div className="flex flex-col w-100">
-      <div className="flex flex-row justify-between items-center">
+    <div className="flex flex-col items-center w-full m-5 lg:w-2/3">
+      <div className="flex flex-row w-2/3 justify-between items-center mb-10">
         <h2 className="font-bold text-2xl">Resume</h2>
         <a
           href={resumePDF}
@@ -14,11 +18,15 @@ export default function Resume() {
           Download
         </a>
       </div>
+
+      {/* <PDFViewer /> */}
+
       <embed
         src={resumePDF}
         type="application/pdf"
         width="100%"
         height="600px"
+        className="z-10 w-full"
       />
     </div>
   );
