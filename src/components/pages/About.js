@@ -34,19 +34,19 @@ export default function About() {
           <h2 className="text-3xl text-center">Welcome to my Portfolio</h2>
           <div className="ps-3 font-serif">
             <p>
-              I am a considerate and creative collaborator based out of Oakland,
+              I am a considerate and creative collaborator living in Oakland,
               CA.
             </p>
             <p>
               I love stories. Consuming them, making them, recycling and
-              rebuilding them. They are the tools by which we structure the
-              world around us. They are the problems we wrestle with and their
+              rebuilding them. They are the tools we have to structure the world
+              around us. They are both the problems we wrestle with and their
               solutions.
             </p>
             <p>
-              Whether working with code, music, or dialogue, I've been
-              privileged to contribute to a number of projects. This page
-              collects a few of my favorites.
+              Composing in code, music, and speech, it has been my privilege to
+              contribute to a number of projects. This page collects a few of my
+              favorites.
             </p>
           </div>
         </div>

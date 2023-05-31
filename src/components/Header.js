@@ -8,7 +8,7 @@ function Header(props) {
         <h1 className="text-4xl font-serif font-extrabold text-zinc-700 m-5 px-10">
           Austin Zumbro
         </h1>
-        <div className="mt-5">
+        <div className="m-5 px-10">
           <Navbar
             currentPage={props.currentPage}
             handlePageChange={props.handlePageChange}
