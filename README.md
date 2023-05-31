@@ -4,6 +4,10 @@
 
 A new portfolio site built in React where I can showcase projects.
 
+[The deployed link is here.](https://austinzumbro.github.io/portfolio)
+
+Preview Image:
+
 ![Preview Image](/readme_images/preview-image.png)
 
 A work in progress, certainly. But some fun stuff!
