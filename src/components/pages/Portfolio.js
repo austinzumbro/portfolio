@@ -55,10 +55,10 @@ export default function Portfolio() {
   ];
 
   return (
-    <div>
+    <div className="w-full">
       <PageHead heading={"Portfolio"} />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2">
         {projectList.map((project, index) => (
           <Project
             key={index}

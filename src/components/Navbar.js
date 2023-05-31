@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="grid grid-cols-2 md:grid-cols-4 gap-5">
+    <ul className="w-screen px-5 grid grid-cols-2 md:grid-cols-4 gap-5">
       <li className="flex">
         <a
           className={

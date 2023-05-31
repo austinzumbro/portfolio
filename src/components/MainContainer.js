@@ -26,7 +26,7 @@ export default function MainContainer() {
   };
 
   return (
-    <div>
+    <div className="">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className="flex items-center justify-center">{renderPage()}</div>
       <Footer />
