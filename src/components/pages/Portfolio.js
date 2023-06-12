@@ -5,10 +5,18 @@ import PageHead from "../PageHead";
 export default function Portfolio() {
   const projectList = [
     {
+      title: "Prose & Cons",
+      description: `Full-Stack React App that allows users to create a library, rate books, add friends, view friends' libraries and ratings, and recommend books based on those ratings.`,
+      github: "https://github.com/CTep09/prose-and-cons",
+      deployed: "https://prose-n-cons.herokuapp.com/",
+      image: "prose-n-cons.png",
+      alt: "Screenshot of Prose & Cons app",
+    },
+    {
       title: "MeloRE:",
       description: `An experiment in developing full-stack applications. Requires a Spotify login. Allows the user to connect to Spotify and import playlists. Utlizizes the ChartJS library to provide some simple visual representations of information about the user's songs, including danceability, valence, etc. Pulling lyric samples from MusixMatch, it uses Google Cloud's Natural Language Processing API to give a sentiment analysis based on those lyrics.`,
       github: "https://github.com/austinzumbro/syncaethesia",
-      link: "https://melore.herokuapp.com/",
+      deployed: "https://melore.herokuapp.com/",
       image: "melore.png",
       alt: "Screenshot of MeloRE: App",
     },
